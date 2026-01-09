@@ -14,18 +14,50 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Fundamentos',
+        text: 'Introdução',
         items: [
-          { text: 'O Manifesto MSD.IA', link: '/manifesto' },
-          { text: 'Pilares da IA no Código', link: '/pilares' },
+          { text: 'A Metodologia Living Lab', link: '/guia-estudos/metodologia' }
         ]
       },
       {
-        text: 'Playbook (Prática)',
+        text: 'Módulo 1: O Arquiteto Sintético',
         items: [
-          { text: '1. Setup do Ambiente', link: '/playbook/setup' },
-          { text: '2. Workflow de Refatoração', link: '/playbook/refatoracao' },
-          { text: '3. Testes com IA', link: '/playbook/testes' },
+          { text: 'Discovery e Briefing Inicial', link: '/modulo-1-discovery/aula-1-briefing' },
+          { text: 'Refinamento do Contexto', link: '/modulo-1-discovery/aula-2-refinamento-briefing' }
+        ]
+      },
+      {
+        text: 'Módulo 2: O QA Adversarial',
+        items: [
+          { text: 'Encontrando Falhas Críticas', link: '/modulo-2-analise-risco/aula-1-qa-adversarial' }
+        ]
+      },
+      {
+        text: 'Módulo 3: Lógica Determinística',
+        items: [
+          { text: 'Regras e Tabelas Verdade', link: '/modulo-3-logica/aula-1-tabelas-verdade' }
+        ]
+      },
+      {
+        text: 'Módulo 4: Refinamento Estratégico',
+        items: [
+          { text: 'Pivotagem de Negócio', link: '/modulo-4-estrategia/aula-1-pivotagem' },
+          { text: 'Estratégia de Transição', link: '/modulo-4-estrategia/aula-2-estrategia-transicao' }
+        ]
+      },
+      {
+        text: 'Módulo 5: Arquitetura Técnica',
+        items: [
+          { text: 'Design Patterns e Soluções', link: '/modulo-5-engenharia/aula-1-patterns' }
+        ]
+      },
+      {
+        text: 'Módulo 6: Documentação e Delivery',
+        items: [
+          { text: 'Documento de Visão (1ª Versão)', link: '/modulo-6-documentacao/aula-1-design-thinking' },
+          { text: 'Refinamento do Problema', link: '/modulo-6-documentacao/aula-2-refinamento-problema' },
+          { text: 'Integrando o Fluxo Operacional', link: '/modulo-6-documentacao/aula-3-integrando-operacional' },
+          { text: 'Revisões Finais do Documento', link: '/modulo-6-documentacao/aula-4-revisoes-finais' }
         ]
       }
     ],
